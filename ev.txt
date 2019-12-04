@@ -1,0 +1,144 @@
+client.on("guildMemberAdd", user =>{
+    let joinEmbed = new Discord.RichEmbed()
+    .setColor("#6200ea")
+    .setAuthor(user.user.username, user.user.displayAvatarURL)
+    .setDescription(":grin: Welcome " + user + " to server " + user.guild.name + " !")
+    .setFooter("regorce | Salim")
+    user.guild.channels.get("642855557832900608").send(joinEmbed)
+    user.addRole("644209389015924737")
+});
+
+send(help_embed);
+
+if(message.content === prefix + "http"){
+    var help_embed = new Discord.RichEmbed()
+    .setColor("#CC0000")
+    .setTitle("You Don't Have Permissons To Drop A Discord URL")
+    .setDescription("You Have Benn Warned For Dropping a Discord URL")
+    .setThumbnail(message.author.avatarURL)
+    .addField("Salim", "Regorce")
+    .setTimestamp()
+    message.channel.send(help_embed);
+}
+
+});
+
+if(message.content === prefix + "http"){
+    var help_embed = new Discord.RichEmbed()
+    .setColor("#CC0000")
+    .setTitle("You Don't Have Permissons To Drop A Discord URL")
+    .setDescription("You Have Benn Warned For Dropping a Discord URL")
+    .setThumbnail(message.author.avatarURL)
+    .addField("Salim", "Regorce")
+    .setTimestamp()
+    message.channel.send(help_embed);
+};
+
+
+
+
+client.on("message", message =>{
+    if(!message.guild) return
+    if(message.content === prefix + "warned"){
+        message.channel.send("!kick " + message.author + " ! ")
+    }    
+});
+
+You Don't Have Permissions For Dropping A URL
+
+
+"!kick "  + message.author + " ! ")
+
+    if(message.content.startsWith(prefix + 'http')) {
+     const embed = new Discord.RichEmbed() 
+         .setColor("#ffff00")
+         .setThumbnail(message.author.avatarURL)
+         .setDescription(`
+You Don't Have Permissions To Send A URL On OWN Server
+    `)  
+    .setFooter("regorce | Salim")
+    message.author
+      message.author.sendEmbed(embed)
+       message.channel.send("!kick " + message.author + " ! ")
+       }
+    })
+
+    message.channel.send("welcome " + message.author + " ! ")
+
+ :grin:
+
+
+
+
+        var mentionned = message.mentions.users.first();
+    var client;
+      if(mentionned){
+          var client = mentionned; } else {
+          var client = message.author;
+      }
+        const embed = new Discord.RichEmbed()
+c
+      message.channel.sendEmbed(embed);
+
+
+
+
+client.on('message', message => {
+    if(message.content.startsWith(prefix + 'avatar')) {
+if(!message.channel.guild) return;
+        var mentionned = message.mentions.users.first();
+    var client;
+      if(mentionned){
+          var client = mentionned; } else {
+          var client = message.author;
+      }
+        const embed = new Discord.RichEmbed()
+                           .addField('Requested by:', "<@" + message.author.id + ">")
+        .setColor("000000")
+        .setImage(`${client.avatarURL}`)
+      message.channel.sendEmbed(embed);
+    }
+});
+
+            message.author.sendEmbed(embed);
+      }
+
+
+client.on("guildMemberAdd", user =>{
+    let joinEmbed = new Discord.RichEmbed()
+    .setColor("#6200ea")
+    .setAuthor(user.user.username, user.user.displayAvatarURL)
+    .setDescription("welcome " + user + " to server " + user.guild.name + " !")
+    .setFooter("regorce | Salim")
+    message.channel.sendEmbed(embed);
+    user.addRole("644209389015924737")
+});
+
+
+
+
+
+
+
+client.on("message", message => {
+    var prefix = "";
+    if(message.content === prefix + "http"){
+        var help_embed = new Discord.RichEmbed()
+        .setColor("#CC0000")
+        .setTitle("You were punished |:x:")
+        .setDescription("You have violated the rules of the server by posting links in addition to other servers")
+        .setThumbnail(message.author.avatarURL)
+        .addField(`by
+Salim Regorce
+        `)
+        .setTimestamp()
+        message.channel.send("!kick " + message.author + " ! ")
+        message.channel.send(help_embed);
+    }
+ 
+});
+
+
+!clear 44
+
+
